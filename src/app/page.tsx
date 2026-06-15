@@ -63,7 +63,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://ppdbcahayailmusdit.vercel.app/"
+                href="https://ppdbcahayailmusmpit.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-900 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-800 transition-colors"
