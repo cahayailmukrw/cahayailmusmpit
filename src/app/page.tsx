@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('beranda');
@@ -21,7 +20,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-3">
-              <Image
+              <img
                 src="/logo.png"
                 alt="SMPIT Cahaya Ilmu Logo"
                 width={50}

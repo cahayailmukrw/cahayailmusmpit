@@ -14,12 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "SMPIT Cahaya Ilmu",
-  description: "Sekolah Menengah Pertama Islam Terpadu SMPIT Cahaya Ilmu",
-  icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
-  },
+  description: "Website resmi SMPIT Cahaya Ilmu",
 };
 
 export default function RootLayout({
@@ -32,11 +27,6 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <head>
-        <link rel="icon" href="/logo.png" type="image/png" />
-        <link rel="shortcut icon" href="/logo.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
-      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
