@@ -21,7 +21,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-3">
               <img
-                src="/school-logo.svg"
+                src="/logo.png"
                 alt="SMPIT Cahaya Ilmu Logo"
                 width={50}
                 height={50}
